@@ -1,11 +1,13 @@
 {
-  "name": "github-fork-ribbon-css",
-  "version": "0.1.1",
-  "homepage": "http://simonwhitaker.github.io/github-fork-ribbon-css/",
+  "name": "f-me-on-github",
+  "version": "0.5.0",
+  "homepage": "https://zacanger.github.io/f-me-on-github",
   "authors": [
-    "Simon Whitaker"
+    "Simon Whitaker",
+	"Chris McKenzie",
+	"Zac Anger"
   ],
-  "description": "\"Fork me on GitHub\" CSS ribbon",
+  "description": "\"Fuck me on GitHub\" CSS ribbon",
   "main": [
     "gh-fork-ribbon.css",
     "gh-fork-ribbon.ie.css"

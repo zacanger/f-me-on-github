@@ -2,68 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fuck me on Github CSS Ribbon</title>
-    <link rel="stylesheet" href="//oss.maxcdn.com/libs/normalize-css/3.0.0/normalize.min.css">
+	<title>Fuck me on Github</title>
+	<link rel="stylesheet" href="https://github.com/zacanger/f-me-on-github" type="text/css">
     <style>
         /* This is just the styling for this page. See below for the CSS for the ribbon itself. */
-        html {
-            font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+   		html { font-size: 62.5%; }
+		body {
+			font-size: 1.6em;
+			font-family: "Hasklig", "Hack", "Fira Code", "Anonymous Pro", "Monaco", monospace;
         }
-        h1, h2 {
-            font-weight: 400;
-        }
+        h1, h2 { font-weight: 400; }
         pre {
             background-color: #222;
-            color: white;
-            padding: 10px;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            border-radius: 5px;
+            color: #eee;
+            padding: .8em;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
         }
-        pre:before {
-            content: "$ ";
-            color: #999;
-        }
+        pre:before { content: "$ "; color: #999; }
         .content {
-            width: 560px;
+            width: 70%;
             margin: 0 auto;
-            padding-top: 80px;
+            padding-top: 6em;
             color: #444;
         }
-        a, a:visited {
-            color: #c00;
-        }
-        .content p {
-            font-weight: 200;
-        }
+        a, a:visited { color: #c00; }
+        .content p { font-weight: 200; }
 
         /* The default background color is #c00 */
-        .right-bottom .github-fork-ribbon {
-            background-color: #090;
-        }
-
-        .right .github-fork-ribbon {
-            background-color: #f80;
-        }
-
-        .left-bottom .github-fork-ribbon {
-            background-color: #333;
-        }
+        .right-bottom .github-fork-ribbon { background-color: #090; }
+        .right .github-fork-ribbon { background-color: #f80; }
+        .left-bottom .github-fork-ribbon { background-color: #333; }
     </style>
-
-    <!-- START COPYING HERE -->
     <link rel="stylesheet" href="gh-fork-ribbon.css">
-    <!--[if lt IE 9]>
-        <link rel="stylesheet" href="gh-fork-ribbon.ie.css">
-    <![endif]-->
-    <!-- END COPYING HERE -->
 </head>
 <body>
     <!-- TOP RIGHT RIBBON: START COPYING HERE -->
     <div class="github-fork-ribbon-wrapper right">
         <div class="github-fork-ribbon">
-            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fuck me on GitHub</a>
+            <a href="https://github.com/zacanger/f-me-on-github">Fuck me on GitHub</a>
         </div>
     </div>
     <!-- TOP RIGHT RIBBON: END COPYING HERE -->
@@ -71,38 +49,37 @@
     <!-- TOP LEFT RIBBON: START COPYING HERE -->
     <div class="github-fork-ribbon-wrapper left">
         <div class="github-fork-ribbon">
-            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fuck me on GitHub</a>
+            <a href="https://github.com/zacanger/f-me-on-github">Fuck me on GitHub</a>
         </div>
     </div>
     <!-- TOP LEFT RIBBON: END COPYING HERE -->
     <div class="content">
 
-        <h1>Fuck me on GitHub &ndash; CSS ribbon</h1>
+        <h2>Fuck me on GitHub&ndash;CSS ribbon</h2>
         <p>
             This is a pure CSS implementation of the famous
             <a href="https://github.com/blog/273-github-ribbons">Fuck me on GitHub</a> ribbon.
         </p>
-        <h2>Usage</h2>
+        <h3>Usage</h3>
+		<p>
+			To use this on your site, check the soure. You'll want the commented CSS and HTML tags.
+			You can also just go right to <a href="https://github.com/zacanger/f-me-on-github">the repo</a> 
+			and grab the files.
+		</p>
         <p>
-            To use it on your site, just view source and
-            copy the two marked sections (one the CSS, the
-            other the HTML tag). You'll also need to grab
-            the <a href="https://github.com/simonwhitaker/github-fork-ribbon-css/">CSS files here</a>.
         </p>
+        <h4>Using with Bower</h4>
         <p>
-            Alternatively, <a href="https://github.com/simonwhitaker/github-fork-ribbon-css/fork">fork the project on GitHub</a>!
+            You can install the CSS file using <a href="https://github.com/bower/bower">Bower</a>.
         </p>
-        <h2>Using with Bower</h2>
-        <p>
-            You can install the CSS files
-            using <a href="https://github.com/bower/bower">Bower</a>.
-        </p>
-        <pre>bower install github-fork-ribbon-css</pre>
-        <h2>About</h2>
+        <pre>bower install f-me-on-github</pre>
+        <h4>About</h4>
         <p>
             This project was written by
-            <a href="http://twitter.com/s1mn/">Simon Whitaker</a>.
-            It is not endorsed in any way by GitHub.
+			<a href="http://twitter.com/s1mn/">Simon Whitaker</a>, modified by <a href="http://getpostdelete.com/">Chris McKenzie</a>, 
+			and updated and republished by <a href="http://zacanger.com">Zac Anger</a>. The work is under the MIT License, copyright 
+			2013 Simon Whitaker.
+			<br><strong> It is not endorsed in any way by GitHub. </strong> Or approved. Or condoned. Probably not actually liked by GitHub, either.
         </p>
     </div>
     <!-- BOTTOM RIGHT RIBBON: START COPYING HERE -->
