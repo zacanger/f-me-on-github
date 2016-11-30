@@ -7,7 +7,10 @@ This is blatantly ripped off from <http://simonwhitaker.github.io/github-fork-ri
 
 Installation:
 
-`npm i -S f-me-on-github` or `bower i -S f-me-on-github`
+`npm i -S f-me-on-github`
+
+Note: I'm no longer going to be publishing to Bower.
+[Bower is bad.](https://gofore.com/stop-using-bower/).
 
 Link to the thing (`gh-fork-ribbon.css`).
 
